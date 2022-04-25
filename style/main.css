@@ -1,0 +1,86 @@
+:root{
+    --azul:#48D1CC;
+    --branca:#f0fff0c4; 
+      }
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+body {
+    background:var(--branca);
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color:#CD853F;
+     }
+
+     header .container{
+         display:flex;
+         align-items: center;
+         justify-content: space-between;
+
+     }
+     header .logo{
+         margin-left: 5px;
+         color: var(--azul);
+         font-size: 40px;
+     }
+    header nav a{
+        color: #DEB887;
+        text-decoration: none;
+        margin-right: 10px;
+        
+     }
+    header nav a:hover{
+        color: 	#CD853F;
+    }
+    
+    .Filme-principal{
+        background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50) 100%),url('/assets/img/coraline.jpg');
+        font-size: 17px;
+        height: 400px;
+        background-size:cover;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:flex-start;
+        }
+
+    .botao{
+             background-color: rgba(0,0,0,.50);
+             color: #CD853F;
+             padding: 15px 30px;
+             margin-right: 15px;
+             font-family: 'Trebuchet MS', Arial, sans-serif;
+             font-size: 16px;
+             cursor: pointer;
+             transition: .3s ease all;
+             border: none;
+             margin-bottom: 5px;
+         
+    }
+    .botao:hover{
+        background-color: #CD853F;
+        color: black;
+
+    }
+    .Filme-principal .Descricao{
+        margin-top: 10px;
+        margin-bottom: 15px;
+        width: 70%;
+
+    }
+    .Titulo{
+        font-size: 40px;
+        margin-top: 15px;
+    }
+    .botao i{
+       margin-right: 5px;
+    }
+    .contairner{
+        margin-left: 20px;
+    }
+   .box-filme{
+       height: 100%;
+       width: 100%;
+       display: block;
+   }
+  
